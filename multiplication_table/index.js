@@ -4,7 +4,7 @@ for (let i = 1;i <= 9; i++) {
 		if (j == 1) {
 		str = str + (i + "*" + j + "=" + (i*j));
 	}
+	else
 		str = str + " " + (i + "*" + j + "=" + (i*j));
-	}
 	console.log(str);
 }
